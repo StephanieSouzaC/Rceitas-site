@@ -112,6 +112,15 @@ body {
     line-height: 1.75em;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.header_nav a {
+    cursor: pointer;
+}
+
 @media (max-width: 980px) {
     .container {
         display: flex;
